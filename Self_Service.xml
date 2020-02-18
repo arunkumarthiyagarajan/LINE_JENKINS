@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE DynamicScope PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<DynamicScope allowAll="true" created="1571398334780" id="0ae9cd1b6dde1f58816ddea3b93c02b5" modified="1575857554581" name="Self Service">
+  <ApplicationRequestControl>
+    <Reference class="sailpoint.object.Rule" id="0ae9cd1b6dde1f58816ddea13f47018d" name="Objects in Requestor&apos;s Authorized Scopes"/>
+  </ApplicationRequestControl>
+  <Description></Description>
+  <ManagedAttributeRequestControl>
+    <Reference class="sailpoint.object.Rule" id="0ae9cd1b6ece1ea0816edccadd892753" name="Custom_SelectorRule_EntitlementCondition"/>
+  </ManagedAttributeRequestControl>
+  <PopulationRequestAuthority allowAll="true"/>
+  <RoleRequestControl>
+    <Reference class="sailpoint.object.Rule" id="0ae9cd1c6e7d160b816e8d8a12f32067" name="Custom_SelectorRule_RequesteeCondition"/>
+  </RoleRequestControl>
+</DynamicScope>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE DynamicScope PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<DynamicScope  name="HR PIC">
+  <Description></Description>
+  <PopulationRequestAuthority allowAll="true"/>
+  <Selector>
+    <IdentitySelector>
+      <MatchExpression>
+        <MatchTerm name="workgroups" type="Entitlement" value="HR PIC"/>
+      </MatchExpression>
+    </IdentitySelector>
+  </Selector>
+</DynamicScope>

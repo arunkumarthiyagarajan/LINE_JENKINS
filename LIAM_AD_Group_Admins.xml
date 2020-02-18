@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE DynamicScope PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<DynamicScope created="1572512895086" id="0ae9cd1b6e011e8d816e2112906e2dcb" modified="1574332772602" name="LIAM AD Group Admins">
+  <ApplicationRequestControl>
+    <Reference class="sailpoint.object.Rule" id="0ae9cd1b6dde1f58816ddea13f47018d" name="Objects in Requestor&apos;s Authorized Scopes"/>
+  </ApplicationRequestControl>
+  <Description></Description>
+  <ManagedAttributeRequestControl>
+    <Reference class="sailpoint.object.Rule" id="0ae9cd1b6dde1f58816ddea140fe0191" name="All Objects"/>
+  </ManagedAttributeRequestControl>
+  <PopulationRequestAuthority allowAll="true"/>
+  <RoleRequestControl>
+    <Reference class="sailpoint.object.Rule" id="0ae9cd1c6e7d160b816e8d8a12f32067" name="Custom_SelectorRule_RequesteeCondition"/>
+  </RoleRequestControl>
+  <Selector>
+    <IdentitySelector>
+      <MatchExpression and="true">
+        <MatchTerm name="workgroups" type="Entitlement" value="LIAM AD Group Admins"/>
+      </MatchExpression>
+    </IdentitySelector>
+  </Selector>
+</DynamicScope>
